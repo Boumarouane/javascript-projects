@@ -1,0 +1,61 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: serif;
+}
+
+.dropdown {
+    max-width: 300px;
+    height: 63px;
+    border-radius: 5px;
+    margin: 100px auto;
+    color: lightcoral;
+    background-color: black;
+    transition: height .4s ease-in-out;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.bloc-top{
+    padding: 20px;
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items :center;
+    background: black;
+    color: lightcoral;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.bloc-top img {
+    width: 20px;
+    color: lightcoral;
+    background: lightcoral;
+}
+
+.bloc-links {
+    padding: 0 22px;
+}
+
+.bloc-links li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.bloc-links li a {
+    font-size: 18px;
+    color: lightcoral;
+    margin-left: 5px;
+}
+
+.bloc-links li:last-child{
+    padding-bottom: 25px;
+}
