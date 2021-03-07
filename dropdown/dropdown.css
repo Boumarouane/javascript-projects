@@ -35,10 +35,11 @@ body {
     border-radius: 5px;
 }
 
-.bloc-top img {
+.icone-plus {
     width: 20px;
     color: lightcoral;
     background: lightcoral;
+    transition :all .3s ease-in-out;
 }
 
 .bloc-links {
