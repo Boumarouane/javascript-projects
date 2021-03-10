@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onglet</title>
+    <link rel="stylesheet" href="onglet.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- les onglets contiennent un attribut data-anim qui permet de vérifier sur lequel on a cliqué -->
+        <div class="container-onglets">
+            <div class="onglets active" data-anim="1">Destination</div>
+            <div class="onglets" data-anim="2">Voyages</div>
+            <div class="onglets" data-anim="3">Tarifs</div>
+        </div>
+
+        <!-- contenus -->
+        <div class="contenu activeContenu" data-anim="1">
+            <h3>Lorem ipsum dolor sit amet. 1</h3>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur perspiciatis alias quod, dolores eum
+                illum doloremque assumenda odio architecto, dolorum vitae nobis, quo deleniti ipsum.</p>
+        </div>
+
+        <div class="contenu" data-anim="2">
+            <h3>Lorem ipsum dolor sit amet. 2</h3>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur perspiciatis alias quod, dolores eum
+                illum doloremque assumenda odio architecto, dolorum vitae nobis, quo deleniti ipsum.</p>
+        </div>
+
+        <div class="contenu" data-anim="3">
+            <h3>Lorem ipsum dolor sit amet. 3</h3>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur perspiciatis alias quod, dolores eum
+                illum doloremque assumenda odio architecto, dolorum vitae nobis, quo deleniti ipsum.</p>
+        </div>
+
+    </div>
+
+    <script src="onglet.js"></script>
+</body>
+
+</html>
